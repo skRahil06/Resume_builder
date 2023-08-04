@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class=" container">
+        <h1>Resume Builder</h1>
+
+        <!-- Personal Info -->
+        <h2>Personal Info</h2>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <!-- Education -->
+        <h2>Education</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree" required>
+
+        <label for="university">University/College:</label>
+        <input type="text" id="university" name="university" required>
+
+        <label for="graduation_year">Graduation Year:</label>
+        <input type="text" id="graduation_year" name="graduation_year" required>
+
+        <!-- Experience -->
+        <h2>Experience</h2>
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" required>
+
+        <label for="employer">Employer:</label>
+        <input type="text" id="employer" name="employer" required>
+
+        <label for="employment_duration">Employment Duration:</label>
+        <input type="text" id="employment_duration" name="employment_duration" required>
+
+        <!-- Skills -->
+        <h2>Skills</h2>
+        <ul id="skills_list">
+            <li><input type="text" name="skill" required></li>
+        </ul>
+        <button type="button" id="add_skill">Add More Skills</button>
+
+        <!-- Certificates -->
+        <h2>Certificates</h2>
+        <ul id="certificates_list">
+            <li><input type="text" name="certificate" required></li>
+        </ul>
+        <button type="button" id="add_certificate">Add More Certificates</button>
+
+        <!-- Hobbies -->
+        <h2>Hobbies</h2>
+        <ul id="hobbies_list">
+            <li><input type="text" name="hobby" required></li>
+        </ul>
+        <button type="button" id="add_hobby">Add More Hobbies</button>
+
+        <!-- Generate Resume Button -->
+        <button type="button" id="generate_resume">Generate Resume</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
